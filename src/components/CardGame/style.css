@@ -1,0 +1,14 @@
+.card-game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+  width: 130px;
+  border: 4px solid #fffeee;
+  border-radius: 4px;
+}
+
+/* .temp-img {
+  width: 130px;
+  background-color: beige;
+} */
