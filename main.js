@@ -1,17 +1,16 @@
 import "./src/styles/settings/colors.css";
-// Reset CSS
 import "./src/styles/reset.css";
 import "./src/styles/elements/base.css";
+
+import ScoreBoard from "./src/objects/ScoreBoard";
 import BoardGame from "./src/objects/BoardGame";
-import PlayerName from "./src/components/PlayerName";
 
 const $root = document.querySelector("#root");
 
 $root.insertAdjacentHTML(
   "beforeend",
   `
-    ${PlayerName("Player 1")}
-    ${PlayerName("Player 2")}
-    ${BoardGame(6)}
+    ${ScoreBoard()}
+    ${BoardGame(2)}
   `
 );
